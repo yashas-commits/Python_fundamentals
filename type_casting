@@ -1,0 +1,27 @@
+'''What Is Type Casting?
+“Type casting explicitly converts one data type into another.”
+“Python forces explicit conversion to prevent unsafe assumptions.”
+“In data science, almost all data starts as text.” 
+(by default generic data type in data science is object nothing but "string"
+
+'''
+
+#Step 1: Input
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+#Step 2: Conversion
+num1 = int(num1)
+num2 = int(num2)
+
+sum_result = num1 + num2
+print("Sum is:", sum_result)
+
+#or
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
